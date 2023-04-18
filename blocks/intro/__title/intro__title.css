@@ -5,3 +5,10 @@
   font-size: 54px;
   line-height: 107%;
 }
+
+@media screen and (max-width: 767px) {
+  .lead__title {
+    font-size: calc(32px + (100vw - 320px) * 22 / 448);
+    line-height: 109%;
+  }
+}

@@ -8,3 +8,12 @@
   text-align: center;
   z-index: 2;
 }
+
+@media screen and (max-width: 767px) {
+  .cover__title {
+    font-size: calc(32px + (100vw - 320px) * 40 / 448);
+    line-height: 109%;
+    width: calc(288px + (100vw - 320px) * 272 / 448);
+    margin: 0 16px 0 16px;
+  }
+}
